@@ -132,4 +132,37 @@ button{
 
 footer{
     padding: 3rem 7rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size: 14px;
+}
+
+table{
+    text-align:left;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+th,label{
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+td{
+    padding-right:70px;
+    padding-bottom:5px;
+}
+
+.logo{
+    padding-bottom:10px;
+}
+
+input{
+    padding: 9px 20px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
 }
